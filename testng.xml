@@ -3,7 +3,7 @@
 <suite name="posting" >
     <parameter name="browser" value="chrome"></parameter>   <!--    Here you can set kind of browser you need to test under it -->
     <parameter name="url" value="https://www.facebook.com/"></parameter>  <!--    Here you can set ur of website you  need to test it -->
-    <parameter name="userName" value="userNme"></parameter> <!--    Here you can set username -->
+    <parameter name="userName" value="userName"></parameter> <!--    Here you can set username -->
     <parameter name="password" value="password"></parameter> <!--    Here you can set password -->
     <test name="post Hello World">
         <classes>

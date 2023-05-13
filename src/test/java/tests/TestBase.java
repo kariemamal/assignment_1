@@ -30,7 +30,7 @@ public class TestBase {
             WebDriverManager.chromedriver().setup();
             webDriver = new ChromeDriver(chromeOptions);
         }
-        webDriver.get("https://www.facebook.com/");
+        webDriver.get(url);
         webDriver.manage().window().maximize();
     }
 
