@@ -12,11 +12,12 @@ public class Login extends TestBase {
     HomePage homePage;
 
     @Test
-    @Parameters({"userName", "password"})
+    @Parameters({"userName", "password"}) /* these value is invoked from testng.xml file */
     public void loginUser(String userName, String password) {
         loginPage = new LoginPage(webDriver);
         homePage = new HomePage(webDriver);
         loginPage.loginUser(userName, password);
-        Assert.assertTrue(homePage.homePageIcon.isDisplayed());
+        assertElementIsDisplay(homePage.homePageIcon);
+//        Assert.assertTrue(homePage.homePageIcon.isDisplayed());
     }
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="posting" >
-    <parameter name="browser" value="chrome"></parameter>
-    <parameter name="url" value="https://www.facebook.com/"></parameter>
-    <parameter name="userName" value="username"></parameter>
-    <parameter name="password" value="password"></parameter>
+    <parameter name="browser" value="chrome"></parameter>   <!--    Here you can set kind of browser you need to test under it -->
+    <parameter name="url" value="https://www.facebook.com/"></parameter>  <!--    Here you can set ur of website you  need to test it -->
+    <parameter name="userName" value="01283598850"></parameter> <!--    Here you can set username -->
+    <parameter name="password" value="#oO23101973"></parameter> <!--    Here you can set password -->
     <test name="post Hello World">
         <classes>
             <class name="tests.Login"></class>

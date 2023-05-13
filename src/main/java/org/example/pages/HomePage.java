@@ -11,9 +11,6 @@ public class HomePage extends PageBase {
     }
 
 
-    //    @FindBy(css = "div.x1emribx .xma1kzc span")
-//    public WebElement createIcon;
-//
     @FindBy(css = "div.x1emribx div.x9e5oc1")
     WebElement createIcon;
 
